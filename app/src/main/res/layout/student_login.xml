@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/gradient_background"
     android:layout_height="match_parent">
 
     <ImageView
@@ -11,6 +12,6 @@
         android:layout_width="131dp"
         android:layout_height="149dp"
         app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="144dp" />
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="209dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

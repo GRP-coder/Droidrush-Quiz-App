@@ -33,6 +33,7 @@
     <EditText
         android:layout_width="300dp"
         android:gravity="center"
+        android:drawableStart="@drawable/userx"
         android:layout_height="50dp"
         android:hint="@string/username"
         android:textColorHint="#DCC744"
@@ -46,6 +47,7 @@
         android:layout_height="50dp"
         android:hint="@string/password"
         android:textColorHint="#DCC744"
+        android:drawableStart="@drawable/passx"
         android:background="#ffffff"
         android:gravity="center"
         android:inputType="textPassword"

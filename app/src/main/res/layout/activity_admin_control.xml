@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminControl"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    >
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#BAFFEBEB"
+        android:fontFamily="@font/berkshire_swash"
+        android:gravity="center"
+        android:text="Admin Control Panel"
+        android:textColor="#92AF25"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/menux"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:background="#11385E"
+        android:text="Number of Students"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginStart="25dp"
+        android:layout_width="160dp"
+        android:layout_height="30dp"/>
+    <TextView
+
+        android:background="#11385E"
+        android:text="6"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="80sp"
+        android:layout_marginStart="25dp"
+        android:layout_width="160dp"
+        android:layout_height="130dp"/>
+    <TextView
+        android:layout_marginTop="-160dp"
+
+        android:background="#11385E"
+        android:text="Number of Teacher"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginStart="225dp"
+        android:layout_width="160dp"
+        android:layout_height="30dp"/>
+    <TextView
+
+        android:background="#11385E"
+        android:text="6"
+        android:textSize="80sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginStart="225dp"
+        android:layout_width="160dp"
+        android:layout_height="130dp"/>
+    <TextView
+
+
+        android:background="#11385E"
+        android:text="Manage Teachers"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="160dp"
+        android:gravity="center"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="130dp"
+        android:background="#11385E"
+        android:text="Manage Students"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:gravity="center"
+
+        android:layout_width="160dp"
+        android:layout_height="30dp"/>
+
+</LinearLayout>

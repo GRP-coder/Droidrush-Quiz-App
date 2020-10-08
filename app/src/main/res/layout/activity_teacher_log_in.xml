@@ -5,5 +5,69 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TeacherLogIn">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:src="@drawable/pexels"/>
+
+    <ImageView
+        android:layout_width="124dp"
+        android:layout_height="134dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"
+        android:foregroundGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEACHER LOGIN"
+            android:textSize="35dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#DA4F4388"
+            android:paddingTop="200dp"/>
+        <EditText
+            android:id="@+id/editTextTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="E-mail"
+            android:inputType="textPassword"
+            android:paddingTop="10dp"
+            android:textColorHint="#FAFAFA" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingTop="10dp"
+            android:textColorHint="#FAFAFA" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowRadius="@android:integer/config_shortAnimTime"
+            android:text="LOG IN"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="85dp"
+            android:background="#09af00"/>
+
+    </LinearLayout>  >
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

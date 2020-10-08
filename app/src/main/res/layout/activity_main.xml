@@ -3,3 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/back">
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="15dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Username"
+        android:layout_marginStart="150dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:autofillHints="" />
+
+</LinearLayout>
+

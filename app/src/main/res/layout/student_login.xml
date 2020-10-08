@@ -15,17 +15,17 @@
         android:layout_marginBottom="45dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/logor" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="380dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="60dp"
         android:background="@drawable/gradient_bg3"
         android:padding="1dp"
         android:text="STUDENT LOGIN"
@@ -35,30 +35,31 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/etName"
         app:layout_constraintEnd_toEndOf="@+id/logo"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="@+id/logo" />
+        app:layout_constraintStart_toStartOf="@+id/logo"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
 
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="267dp"
         android:layout_height="44dp"
-        android:background="@drawable/gradient_bg2"
+        android:layout_marginBottom="56dp"
         android:ems="10"
-        android:textAlignment="center"
-        android:textSize="25sp"
         android:hint="Password"
         android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
         app:layout_constraintEnd_toEndOf="@+id/etName"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/etName"
-        tools:layout_editor_absoluteY="441dp" />
+        app:layout_constraintTop_toBottomOf="@+id/etName" />
 
     <EditText
         android:id="@+id/etName"
-        laybo
         android:layout_width="262dp"
         android:layout_height="45dp"
-        android:layout_marginBottom="32dp"
-        android:background="@drawable/gradient_bg2"
+
+        android:layout_marginBottom="20dp"
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
@@ -66,30 +67,45 @@
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/etPassword"
         app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="@+id/textView" />
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="login"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="41dp"
         android:background="@drawable/gradient_background"
+        android:text="login"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/etRegistration"
         app:layout_constraintEnd_toEndOf="@+id/etPassword"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="@+id/etPassword"
         app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/etRegistration"
+        android:layout_width="146dp"
+        android:layout_height="52dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Not Registertd? "
         app:layout_constraintEnd_toEndOf="@+id/btnLogin"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/btnLogin"
-        tools:layout_editor_absoluteY="606dp" />
+        tools:layout_editor_absoluteY="634dp" />
+
+    <EditText
+        android:id="@+id/etRegister"
+        android:layout_width="88dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="Register"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="635dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

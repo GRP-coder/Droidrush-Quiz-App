@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg1"
     android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="330dp"
+        android:layout_height="53dp"
+        android:text="Enter cod ebelow to join quiz"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Code"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="283dp"
+        android:layout_height="62dp"
+        android:text="Click here to see Score"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Score"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="448dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

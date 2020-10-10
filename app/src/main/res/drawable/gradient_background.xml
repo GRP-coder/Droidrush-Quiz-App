@@ -3,7 +3,7 @@
     <item>
         <shape android:layout_height="match_parent">
 
-            <gradient android:endColor="#3333ff" android:startColor="#BA5370" android:angle="90"/>
+            <gradient android:endColor="#C5966D" android:startColor="#81BCA2" android:angle="90"/>
             <corners android:radius="10dp"/>
 
         </shape>

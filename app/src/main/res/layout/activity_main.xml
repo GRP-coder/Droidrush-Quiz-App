@@ -4,28 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_vertical"
+
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@drawable/back">
+    android:background="@drawable/gradient_background"
+    >
 
 
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginStart="15dp"
-        app:srcCompat="@drawable/logor"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_marginTop="180dp"
 
-    <EditText
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logor"
+        />
+
+    <TextView
         android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:hint="Username"
-        android:layout_marginStart="150dp"
-        android:textColor="@color/colorPrimary"
-        android:layout_marginTop="20dp"
+        android:layout_height="80dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/droidrush_quiz_app_for_avishkar_2020"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#0C287A"
+        android:layout_marginTop="80dp"
 
         android:autofillHints="" />
 

@@ -13,7 +13,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/logo"
+        android:src="@drawable/logor"
         android:layout_marginLeft="145dp"
         android:layout_marginTop="100dp"
         android:foregroundGravity="center"
@@ -36,31 +36,7 @@
         android:paddingTop="20dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
-        android:hint="E-mail"
-        android:inputType="textPassword"
-
-        android:textColorHint="#FAFAFA" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:paddingTop="10dp"
-        android:textColorHint="#FAFAFA" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:shadowRadius="@android:integer/config_shortAnimTime"
-        android:text="LOG IN"
-        android:textSize="20dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:background="#09af00"/>
-
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"/>
 
 </LinearLayout>

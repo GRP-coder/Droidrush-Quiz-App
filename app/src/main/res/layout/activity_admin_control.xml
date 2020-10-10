@@ -29,7 +29,7 @@
         android:background="@drawable/menux"
         />
     <TextView
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:background="#11385E"
         android:text="Number of Students"
         android:textColor="#ffffff"

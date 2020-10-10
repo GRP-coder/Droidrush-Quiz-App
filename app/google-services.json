@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "234112223247",
+    "firebase_url": "https://droidrush-quiz-app.firebaseio.com",
+    "project_id": "droidrush-quiz-app",
+    "storage_bucket": "droidrush-quiz-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234112223247:android:8c93e3018829300408fb7a",
+        "android_client_info": {
+          "package_name": "com.example.droidrush_quiz_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234112223247-eeb6sgj9kjcdcmmf12ddsqhj8s9bag6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFw-NxtE9fS-uVPDxTT55J07jQUbKfK0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234112223247-eeb6sgj9kjcdcmmf12ddsqhj8s9bag6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

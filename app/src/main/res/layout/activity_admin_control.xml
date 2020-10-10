@@ -35,7 +35,7 @@
         android:textColor="#ffffff"
         android:textSize="18sp"
         android:layout_marginStart="25dp"
-        android:layout_width="160dp"
+        android:layout_width="165dp"
         android:layout_height="30dp"/>
     <TextView
 
@@ -45,17 +45,17 @@
         android:textColor="#ffffff"
         android:textSize="80sp"
         android:layout_marginStart="25dp"
-        android:layout_width="160dp"
+        android:layout_width="165dp"
         android:layout_height="130dp"/>
     <TextView
         android:layout_marginTop="-160dp"
 
         android:background="#11385E"
-        android:text="Number of Teacher"
+        android:text="Number of Teachers"
         android:textColor="#ffffff"
         android:textSize="18sp"
         android:layout_marginStart="225dp"
-        android:layout_width="160dp"
+        android:layout_width="165dp"
         android:layout_height="30dp"/>
     <TextView
 
@@ -65,7 +65,7 @@
         android:textColor="#ffffff"
         android:gravity="center"
         android:layout_marginStart="225dp"
-        android:layout_width="160dp"
+        android:layout_width="165dp"
         android:layout_height="130dp"/>
     <TextView
 

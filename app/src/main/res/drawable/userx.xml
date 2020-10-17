@@ -4,6 +4,7 @@
         android:drawable="@drawable/user"
         android:height="50dp"
         android:width="50dp"
+        android:end="10dp"
 
         />
 

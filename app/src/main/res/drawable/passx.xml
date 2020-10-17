@@ -4,6 +4,7 @@
         android:drawable="@drawable/passlogo"
         android:height="40dp"
         android:width="40dp"
-        android:start="5dp"/>
+        android:start="5dp"
+        android:end="15dp"/>
 
 </layer-list>

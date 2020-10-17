@@ -34,8 +34,9 @@
         android:text="Number of Students"
         android:textColor="#ffffff"
         android:textSize="18sp"
+        android:gravity="center"
         android:layout_marginStart="25dp"
-        android:layout_width="165dp"
+        android:layout_width="170dp"
         android:layout_height="30dp"/>
     <TextView
 
@@ -45,7 +46,7 @@
         android:textColor="#ffffff"
         android:textSize="80sp"
         android:layout_marginStart="25dp"
-        android:layout_width="165dp"
+        android:layout_width="170dp"
         android:layout_height="130dp"/>
     <TextView
         android:layout_marginTop="-160dp"
@@ -54,8 +55,9 @@
         android:text="Number of Teachers"
         android:textColor="#ffffff"
         android:textSize="18sp"
-        android:layout_marginStart="225dp"
-        android:layout_width="165dp"
+        android:gravity="center"
+        android:layout_marginStart="220dp"
+        android:layout_width="170dp"
         android:layout_height="30dp"/>
     <TextView
 
@@ -64,8 +66,8 @@
         android:textSize="80sp"
         android:textColor="#ffffff"
         android:gravity="center"
-        android:layout_marginStart="225dp"
-        android:layout_width="165dp"
+        android:layout_marginStart="220dp"
+        android:layout_width="170dp"
         android:layout_height="130dp"/>
     <TextView
 
@@ -91,5 +93,51 @@
 
         android:layout_width="160dp"
         android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:width="150dp"
+        android:background="#11385E"
+        android:layout_marginStart="30dp"
+        android:textColor="#fff"
+        android:text="Admin Name"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:width="150dp"
+        android:background="#11385E"
+        android:layout_marginStart="220dp"
+        android:textColor="#fff"
+        android:text=""
+
+        android:layout_marginTop="-28dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:width="150dp"
+        android:background="#11385E"
+        android:textColor="#fff"
+        android:text="Admin Phone Number "
+        android:gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:width="150dp"
+        android:background="#11385E"
+        android:textColor="#fff"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="-28dp"/>
+
 
 </LinearLayout>

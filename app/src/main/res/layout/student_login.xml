@@ -3,15 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-
-
-
-
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
 
-
-    android:background="@drawable/gradient_background">
+    android:background="@drawable/bg1"
+    android:background="@drawable/gradient_background"
 
     <ImageView
         android:id="@+id/logo"
@@ -62,7 +57,6 @@
         app:layout_constraintBottom_toTopOf="@+id/btnLogin"
         app:layout_constraintEnd_toEndOf="@+id/etName"
         app:layout_constraintHorizontal_bias="0.0"
-        android:background="#ffffff"
         app:layout_constraintStart_toStartOf="@+id/etName"
         app:layout_constraintTop_toBottomOf="@+id/etName" />
 
@@ -74,7 +68,6 @@
         android:drawableLeft="@drawable/ic_baseline_account_circle_24"
         android:drawablePadding="5dp"
         android:ems="10"
-        android:background="#ffffff"
         android:hint="Username"
         android:inputType="textPersonName"
         android:padding="5dp"
@@ -131,7 +124,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/etRegistration"
         app:layout_constraintTop_toBottomOf="@+id/etPassword" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

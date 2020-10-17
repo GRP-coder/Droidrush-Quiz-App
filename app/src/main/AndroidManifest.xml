@@ -11,20 +11,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".AdminControl">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".TeacherLogIn" />
-        <activity android:name=".StudentLogIn" />
-        <activity android:name=".AdminLoginActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".Quiz"/>
+        <activity android:name=".StudentLogIn" >
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
+        </activity>
+        <activity android:name=".AdminLoginActivity">
+
         </activity>
         <activity android:name=".MainActivity"
                 android:theme="@style/AppTheme.SplashFullScreen"

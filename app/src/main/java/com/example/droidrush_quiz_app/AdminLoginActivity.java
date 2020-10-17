@@ -24,7 +24,7 @@ public class AdminLoginActivity extends AppCompatActivity {
     String email, password;
     Button login;
 
-
+    Button stdentlogb, teacherlogb;
 
 
     @Override
@@ -47,7 +47,13 @@ public class AdminLoginActivity extends AppCompatActivity {
                     mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
-                                    
+                                   if (email.length()==0){
+                                       Toast.makeText(AdminLoginActivity.this, "Email is empty", Toast.LENGTH_SHORT).show();
+                                   }
+                                    if (password.length()==0){
+                                        Toast.makeText(AdminLoginActivity.this, "Password Cannot be empty", Toast.LENGTH_SHORT).show();
+                                    }
+
                                     if (task.isSuccessful()) {
                                         Toast.makeText(AdminLoginActivity.this, "Login Succesful", Toast.LENGTH_SHORT).show();
                                        startActivity(new Intent(getApplicationContext(),AdminControl.class));
@@ -60,7 +66,25 @@ public class AdminLoginActivity extends AppCompatActivity {
                     }
 
             });
-        }
+        stdentlogb = findViewById(R.id.studentlb);
+        teacherlogb = findViewById(R.id.tchrlogb);
+        teacherlogb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),TeacherLogIn.class));
+
+            }
+        });
+        stdentlogb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),StudentLogIn.class));
+
+            }
+        });
     }
+
+}
+
 
 

@@ -32,43 +32,46 @@
         android:paddingTop="30dp"/>
 
     <EditText
-        android:id="@+id/editTextTextEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:paddingTop="20dp"
+        android:id="@+id/emailet"
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+
+        android:drawableLeft="@drawable/userx"
+
+        android:layout_marginTop="20dp"
 
         android:background="#fff"
         android:gravity="center"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
-
 
         android:hint="@string/e_mail"
         android:inputType="textEmailAddress"
-         />
-
-
 
         android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
-        android:hint="E-mail"
-        android:inputType="textPassword"
 
-        android:textColorHint="#FAFAFA" />
+        android:layout_marginRight="40dp"
+
+        android:textColorHint="#123456" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/passet"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+
         android:ems="10"
+        android:background="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_height="45dp"
+        android:textColorHint="#123456"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:hint="Password"
+
+        android:drawableLeft="@drawable/passx"
         android:inputType="textPassword"
         android:paddingTop="10dp"
-        android:textColorHint="#FAFAFA" />
+        android:gravity="center"
+         />
     <Button
+        android:id="@+id/loginb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:shadowRadius="@android:integer/config_shortAnimTime"

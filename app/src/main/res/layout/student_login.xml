@@ -4,9 +4,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
 
-    android:background="@drawable/bg1"
-    android:background="@drawable/gradient_background"
+    android:background="@drawable/bg1">
+    <!--android:background="@drawable/gradient_background"-->
 
     <ImageView
         android:id="@+id/logo"
@@ -51,6 +52,7 @@
         android:padding="5dp"
         android:drawableLeft="@drawable/password_icon"
         android:hint="Password"
+        android:background="#fff"
         android:inputType="textPassword"
         android:textAlignment="textStart"
         android:textSize="25sp"
@@ -68,6 +70,7 @@
         android:drawableLeft="@drawable/ic_baseline_account_circle_24"
         android:drawablePadding="5dp"
         android:ems="10"
+        android:background="#fff"
         android:hint="Username"
         android:inputType="textPersonName"
         android:padding="5dp"
@@ -105,6 +108,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Not Registertd? "
+        android:textColor="#123456"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/etRegister"
         app:layout_constraintStart_toStartOf="parent"
@@ -120,10 +125,53 @@
         android:ems="10"
         android:inputType="textPostalAddress"
         android:text="Register"
+        android:textColor="#123456"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/etRegistration"
         app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teacher Login"
+        app:layout_constraintBottom_toTopOf="@+id/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#EDD6C0E4"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="118dp"
+        android:layout_height="36dp"
+        android:background="#EDD6C0E4"
+        android:text="Admin Login"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginEnd="120dp"
+        android:gravity="center"
+        android:text="Goback to"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/logo"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -43,7 +43,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="30dp"
         android:autofillHints=""
-        android:inputType="none" />
+        android:inputType="textEmailAddress" />
     <EditText
         android:id="@+id/passet"
         android:layout_width="300dp"
@@ -57,7 +57,7 @@
         android:inputType="textPassword"
         android:layout_marginStart="50dp"
         android:layout_marginTop="30dp"
-        android:autofillHints="" />
+        />
 
     <Button
         android:id="@+id/loginb"
@@ -80,6 +80,7 @@
         android:textColor="#F2FDFB"/>
 
     <Button
+        android:id="@+id/studentlb"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:text="@string/students_login"
@@ -87,6 +88,7 @@
         android:layout_marginStart="50dp"
         android:background="#EDB48A"/>
     <Button
+        android:id="@+id/tchrlogb"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:text="@string/teachers_login"

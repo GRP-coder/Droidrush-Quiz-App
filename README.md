@@ -2,7 +2,7 @@
 
 # Gforce-Droidrush-Quiz-app
 Quiz app building for Droidrush (Avishkar 2020)
-This app is beang made by Arun Jena, Gyanaranjan Panda, Sambit Kumar Behera.
+This app is beang made by Arun Jena, Gyanaranjan Panda(project head).
 # Problem statement
 
 Two different portals for hosting tests(for faculties) and givingtests(for students)

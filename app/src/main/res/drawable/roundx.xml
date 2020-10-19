@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+
+            <item>
+                <shape android:shape="oval"
+                    >
+                    <stroke android:color="#123"
+                        android:width="5dp"
+                        />
+                    <solid android:color="#123"/>
+                    <size android:width="300dp"
+                        android:height="300dp"/>
+                </shape>
+
+            </item>
+
+            <item android:drawable="@drawable/logor"
+                android:width="200dp"
+                android:height="200dp"
+                android:gravity="center"/>
+
+        </layer-list>
+    </item>
+
+</selector>

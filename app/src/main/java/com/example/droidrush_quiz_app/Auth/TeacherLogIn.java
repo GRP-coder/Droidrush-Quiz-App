@@ -20,7 +20,8 @@ import com.google.firebase.auth.FirebaseAuth;
 public class TeacherLogIn extends AppCompatActivity {
     EditText emailt, passt;
     String email, password;
-    Button login;
+    Button login, stdlogin, admlogin;
+
     private FirebaseAuth mAuth;
 
     @Override
@@ -30,6 +31,8 @@ public class TeacherLogIn extends AppCompatActivity {
         login= findViewById(R.id.loginb);
         emailt= findViewById(R.id.emailet);
         passt= findViewById(R.id.passet);
+        stdlogin=findViewById(R.id.stdloginb);
+        admlogin= findViewById(R.id.admloginb);
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -61,5 +64,21 @@ public class TeacherLogIn extends AppCompatActivity {
             }
 
         });
+        admlogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),AdminLoginActivity.class));
+
+            }
+        });
+        stdlogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), StudentLogIn.class));
+
+            }
+        });
     }
+
+
 }

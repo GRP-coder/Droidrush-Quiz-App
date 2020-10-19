@@ -1,4 +1,4 @@
-package com.example.droidrush_quiz_app;
+package com.example.droidrush_quiz_app.Auth;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.droidrush_quiz_app.Admin.AdminControl;
+import com.example.droidrush_quiz_app.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -49,7 +51,7 @@ public class TeacherLogIn extends AppCompatActivity {
 
                         if (task.isSuccessful()) {
                             Toast.makeText(TeacherLogIn.this, "Login Succesful", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(),AdminControl.class));
+                            startActivity(new Intent(getApplicationContext(), AdminControl.class));
                         }
                         else {
                             Toast.makeText(TeacherLogIn.this, "Authentication failed."+task.getException().getMessage(), Toast.LENGTH_SHORT).show();

@@ -10,18 +10,29 @@
         android:roundIcon="@drawable/logor"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AdminControl">
-
+        <activity android:name=".Admin.AdminControl"
+            android:theme="@style/AppTheme.notitle">
         </activity>
-        <activity android:name=".TeacherLogIn" />
-        <activity android:name=".Quiz"/>
-        <activity android:name=".StudentLogIn" >
 
 
+        <activity android:name=".Auth.TeacherLogIn"
+            android:theme="@style/AppTheme.notitle"/>
+
+        <activity android:name=".Student.Quizcode"
+            android:theme="@style/AppTheme.notitle" />
+
+
+        <activity android:name=".Auth.StudentLogIn"
+            android:theme="@style/AppTheme.notitle">
         </activity>
-        <activity android:name=".AdminLoginActivity">
 
+
+        <activity android:name=".Auth.AdminLoginActivity"
+            android:theme="@style/AppTheme.notitle">
         </activity>
+
+
+
         <activity android:name=".MainActivity"
                 android:theme="@style/AppTheme.SplashFullScreen"
             >
@@ -31,6 +42,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
 
         <meta-data
             android:name="preloaded_fonts"

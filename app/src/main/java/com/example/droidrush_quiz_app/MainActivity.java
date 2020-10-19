@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.example.droidrush_quiz_app.Auth.StudentLogIn;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -17,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     new Handler().postDelayed(new Runnable() {
         @Override
         public void run() {
-            startActivity(new Intent(MainActivity.this,StudentLogIn.class));
+            startActivity(new Intent(MainActivity.this, StudentLogIn.class));
             finish();
         }
     },2000);

@@ -16,4 +16,10 @@
 
     </style>
 
+    <style name="AppTheme.notitle">
+       <item name="windowNoTitle">true</item>
+
+    </style>
+
+
 </resources>

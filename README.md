@@ -6,9 +6,9 @@ This app is beang made by Arun Jena, Gyanaranjan Panda(project head).
 # Problem statement
 
 Two different portals for hosting tests(for faculties) and givingtests(for students)
-Profile for each user(both teacher and student). Users canregister/login/update their profiles through the app.
+Profile for each user(both teacher and student). Users can register/login/update their profiles through the app.
 Appearance of the quiz for registered subjects by the student
-Profile of each user shows Statistics like number of tests given, scorehistory, average score in each subject
+Profile of each user shows Statistics like number of tests given, score history, average score in each subject
 Show quiz timer.
 
 # advanced features

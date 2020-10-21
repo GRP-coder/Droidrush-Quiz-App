@@ -11,10 +11,7 @@
     android:background="@drawable/gradient_background"
     >
 
-    android:gravity="center_vertical"
-    android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:background="@drawable/back">
+
 
 
 
@@ -24,9 +21,9 @@
         android:layout_height="100dp"
 
         android:layout_marginTop="180dp"
-
+        android:background="@drawable/logo"
         android:layout_gravity="center"
-        app:srcCompat="@drawable/logor"
+
         />
 
     <TextView

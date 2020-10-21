@@ -9,6 +9,7 @@
 
     <ImageView
         android:id="@+id/logo"
+        android:background="@drawable/logo"
         android:layout_width="130dp"
         android:layout_height="104dp"
         android:layout_marginTop="72dp"
@@ -16,7 +17,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logor" />
+         />
 
     <TextView
         android:id="@+id/textView2"
@@ -43,7 +44,7 @@
         android:background="#fff"
         android:paddingStart="5dp"
 
-        android:drawableLeft="@drawable/passx"
+
         android:inputType="textPersonName"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@+id/textView2"

@@ -9,27 +9,15 @@
     android:background="@drawable/back">
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="#BAFFEBEB"
-        android:fontFamily="@font/berkshire_swash"
-        android:gravity="center"
-        android:text="Admin Control Panel"
-        android:textColor="#92AF25"
-        android:textSize="20sp" />
-    <TextView
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="-40dp"
-        android:background="@drawable/menux"
-        />
+
+
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="80dp"
         android:layout_marginStart="150dp"
-        app:srcCompat="@drawable/logor"
+
+        android:background="@drawable/logo"
         android:contentDescription="@string/logo" />
 
     <TextView
@@ -48,7 +36,7 @@
         android:id="@+id/emailet"
         android:layout_width="300dp"
 
-        android:drawableStart="@drawable/userx"
+
         android:layout_height="50dp"
         android:hint="@string/username"
 
@@ -64,7 +52,7 @@
         android:layout_height="50dp"
         android:hint="@string/password"
         android:textColorHint="#DCC744"
-        android:drawableStart="@drawable/passx"
+
         android:background="#ffffff"
 
 

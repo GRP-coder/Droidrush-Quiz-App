@@ -11,7 +11,7 @@
 
     <ImageView
         android:id="@+id/logo"
-
+        android:background="@drawable/logo"
         android:layout_width="130dp"
         android:layout_height="104dp"
         android:layout_marginTop="84dp"
@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/logor" />
+         />
 
     <TextView
         android:id="@+id/textView"
@@ -50,7 +50,7 @@
         android:ems="10"
         android:drawablePadding="5dp"
         android:padding="5dp"
-        android:drawableLeft="@drawable/password_icon"
+
         android:hint="Password"
         android:background="#fff"
         android:inputType="textPassword"
@@ -67,7 +67,7 @@
         android:layout_width="262dp"
         android:layout_height="45dp"
         android:layout_marginBottom="20dp"
-        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+
         android:drawablePadding="5dp"
         android:ems="10"
         android:background="#fff"

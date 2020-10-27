@@ -1,4 +1,4 @@
-package com.example.droidrush_quiz_app.Admin;
+package com.example.droidrush_quiz_app.Student;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,11 +9,11 @@ import android.widget.Button;
 
 import com.example.droidrush_quiz_app.R;
 
-public class AdminControl extends AppCompatActivity {
+public class student_quiz_instruction extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.admin_control);
+        setContentView(R.layout.student_quiz_instruction);
     }
 }

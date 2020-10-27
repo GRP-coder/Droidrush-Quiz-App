@@ -21,7 +21,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class AdminLoginActivity extends AppCompatActivity {
+public class AdminLogin extends AppCompatActivity {
     private FirebaseAuth mAuth;
 
     EditText emailt, passt;
@@ -34,7 +34,7 @@ public class AdminLoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin_login);
+        setContentView(R.layout.admin_login);
 
         login= findViewById(R.id.loginb);
         emailt= findViewById(R.id.emailet);
@@ -52,18 +52,18 @@ public class AdminLoginActivity extends AppCompatActivity {
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                    if (email.length()==0){
-                                       Toast.makeText(AdminLoginActivity.this, "Email is empty", Toast.LENGTH_SHORT).show();
+                                       Toast.makeText(AdminLogin.this, "Email is empty", Toast.LENGTH_SHORT).show();
                                    }
                                     if (password.length()==0){
-                                        Toast.makeText(AdminLoginActivity.this, "Password Cannot be empty", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(AdminLogin.this, "Password Cannot be empty", Toast.LENGTH_SHORT).show();
                                     }
 
                                     if (task.isSuccessful()) {
-                                        Toast.makeText(AdminLoginActivity.this, "Login Succesful", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(AdminLogin.this, "Login Succesful", Toast.LENGTH_SHORT).show();
                                        startActivity(new Intent(getApplicationContext(), AdminControl.class));
                                     }
                                     else {
-                                        Toast.makeText(AdminLoginActivity.this, "Authentication failed."+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(AdminLogin.this, "Authentication failed."+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                                     }
                                 }
                             });

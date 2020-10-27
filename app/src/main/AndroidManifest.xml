@@ -1,40 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.droidrush_quiz_app">
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-
+        android:usesCleartextTraffic="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".Admin.AdminControl"
-            android:theme="@style/AppTheme.notitle">
-        </activity>
-
-
-        <activity android:name=".Auth.TeacherLogIn"
-            android:theme="@style/AppTheme.notitle"/>
-
-        <activity android:name=".Student.Quizcode"
-            android:theme="@style/AppTheme.notitle" />
-
-
-        <activity android:name=".Auth.StudentLogIn"
-            android:theme="@style/AppTheme.notitle">
-        </activity>
-
-
-        <activity android:name=".Auth.AdminLoginActivity"
-            android:theme="@style/AppTheme.notitle">
-        </activity>
-
-
+        android:theme="@style/AppTheme"
+        tools:targetApi="m">
 
         <activity android:name=".MainActivity"
-                android:theme="@style/AppTheme.SplashFullScreen"
+            android:theme="@style/AppTheme.SplashFullScreen"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,6 +23,58 @@
             </intent-filter>
         </activity>
 
+        <!-- admin  -->
+        <activity android:name=".Admin.AdminControl"
+            android:theme="@style/AppTheme.notitle">
+        </activity>
+
+        <activity android:name=".Admin.Admin_create_teacher"
+            android:theme="@style/AppTheme.notitle"/>
+
+        <!-- auth -->
+        <activity android:name=".Auth.AdminLogin"
+            android:theme="@style/AppTheme.notitle">
+        </activity>
+
+        <activity android:name=".Auth.Student_signup"
+            android:theme="@style/AppTheme.notitle" />
+
+        <activity android:name=".Auth.StudentLogIn"
+            android:theme="@style/AppTheme.notitle">
+        </activity>
+
+        <activity android:name=".Auth.TeacherLogIn"
+            android:theme="@style/AppTheme.notitle"/>
+
+
+        <!-- student  -->
+        <activity android:name=".Student.student_control"
+            android:theme="@style/AppTheme.notitle" />
+
+        <activity android:name=".Student.student_quiz"
+            android:theme="@style/AppTheme.notitle" />
+
+        <activity android:name=".Student.student_quiz_instruction"
+            android:theme="@style/AppTheme.notitle" />
+
+        <activity android:name=".Student.student_quizcode"
+            android:theme="@style/AppTheme.notitle" />
+
+        <activity android:name=".Student.student_result"
+            android:theme="@style/AppTheme.notitle" />
+
+        <!-- Teacher  -->
+        <activity android:name=".Teacher.teacher_control"
+            android:theme="@style/AppTheme.notitle" />
+
+        <activity android:name=".Teacher.teacher_create_quiz"
+            android:theme="@style/AppTheme.notitle" />
+
+        <activity android:name=".Teacher.teacher_view_quiz"
+            android:theme="@style/AppTheme.notitle" />
+
+        <activity android:name=".Teacher.teacher_view_result"
+            android:theme="@style/AppTheme.notitle" />
 
         <meta-data
             android:name="preloaded_fonts"

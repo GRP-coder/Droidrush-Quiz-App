@@ -9,11 +9,11 @@ import android.widget.Button;
 
 import com.example.droidrush_quiz_app.R;
 
-public class AdminControl extends AppCompatActivity {
+public class Admin_create_teacher extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.admin_control);
+        setContentView(R.layout.admin_create_teacher);
     }
 }

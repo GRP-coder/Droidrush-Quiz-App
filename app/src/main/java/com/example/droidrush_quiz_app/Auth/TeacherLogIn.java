@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.example.droidrush_quiz_app.Admin.AdminControl;
 import com.example.droidrush_quiz_app.R;
+import com.example.droidrush_quiz_app.Teacher.teacher_control;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -27,7 +28,7 @@ public class TeacherLogIn extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_teacher_log_in);
+        setContentView(R.layout.teacher_log_in);
         login= findViewById(R.id.loginb);
         emailt= findViewById(R.id.emailet);
         passt= findViewById(R.id.passet);
@@ -54,7 +55,7 @@ public class TeacherLogIn extends AppCompatActivity {
 
                         if (task.isSuccessful()) {
                             Toast.makeText(TeacherLogIn.this, "Login Succesful", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(), AdminControl.class));
+                            startActivity(new Intent(getApplicationContext(), teacher_control.class));
                         }
                         else {
                             Toast.makeText(TeacherLogIn.this, "Authentication failed."+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
@@ -67,7 +68,7 @@ public class TeacherLogIn extends AppCompatActivity {
         admlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),AdminLoginActivity.class));
+                startActivity(new Intent(getApplicationContext(),AdminLogin.class));
 
             }
         });

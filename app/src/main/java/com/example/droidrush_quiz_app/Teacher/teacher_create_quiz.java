@@ -1,4 +1,4 @@
-package com.example.droidrush_quiz_app.Student;
+package com.example.droidrush_quiz_app.Teacher;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,13 +9,11 @@ import android.widget.Button;
 
 import com.example.droidrush_quiz_app.R;
 
-public class Quizcode extends AppCompatActivity {
+public class teacher_create_quiz extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.option_to_start_quiz);
-
-
+        setContentView(R.layout.teacher_create_quiz);
     }
 }

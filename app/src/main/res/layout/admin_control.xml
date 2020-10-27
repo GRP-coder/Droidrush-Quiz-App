@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminControl"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    >
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#BAFFEBEB"
+        android:fontFamily="@font/berkshire_swash"
+        android:gravity="center"
+        android:text="Admin Control Panel"
+        android:textColor="#92AF25"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-40dp"/>
+        <!--android:background="@drawable/menux"-->
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:background="#11385E"
+        android:text="Number of Students"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_width="170dp"
+        android:layout_height="30dp"/>
+
+    <TextView
+
+        android:layout_width="170dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="25dp"
+        android:background="#11385E"
+        android:gravity="center"
+        android:text="6"
+        android:textColor="#ffffff"
+        android:textSize="80sp" />
+    <TextView
+        android:layout_marginTop="-160dp"
+
+        android:background="#11385E"
+        android:text="Number of Teachers"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginStart="220dp"
+        android:layout_width="170dp"
+        android:layout_height="30dp"/>
+    <TextView
+
+        android:background="#11385E"
+        android:text="6"
+        android:textSize="80sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginStart="220dp"
+        android:layout_width="170dp"
+        android:layout_height="130dp"/>
+    <TextView
+
+
+        android:background="#11385E"
+        android:text="Manage Teachers"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="160dp"
+        android:gravity="center"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="130dp"
+        android:background="#11385E"
+        android:text="Manage Students"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:gravity="center"
+
+        android:layout_width="160dp"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:width="150dp"
+        android:height="30dp"
+        android:background="#11385E"
+        android:gravity="center"
+        android:text="Admin Name"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/admin_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:width="150dp"
+        android:drawableEnd="@drawable/edit"
+        android:background="#11385E"
+        android:layout_marginStart="220dp"
+        android:textColor="#fff"
+
+        android:text=""
+
+        android:layout_marginTop="-30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:width="150dp"
+        android:background="#11385E"
+        android:textColor="#fff"
+        android:text="Phone Number"
+        android:gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/admin_no_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:width="150dp"
+        android:background="#11385E"
+        android:textColor="#fff"
+        android:drawableEnd="@drawable/edit"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="-28dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginStart="30dp"
+       android:layout_marginTop="20dp"
+        android:width="150dp"
+        android:height="30dp"
+        android:background="#11385E"
+        android:gravity="center"
+        android:text="Email "
+        android:textColor="#fff" />
+
+
+    <TextView
+        android:id="@+id/admin_email_tv"
+        android:layout_width="wrap_content"
+        android:drawableEnd="@drawable/edit"
+        android:layout_height="30dp"
+        android:width="150dp"
+        android:background="#11385E"
+        android:textColor="#fff"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="-28dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:height="30dp"
+        android:width="150dp"
+        android:background="#11385E"
+        android:textColor="#fff"
+        android:text="Password"
+        android:gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/admin_pass_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:height="30dp"
+        android:width="150dp"
+        android:drawableEnd="@drawable/edit"
+        android:background="#11385E"
+        android:textColor="#fff"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="-28dp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:background="#BF6143"
+        android:text="LOGOUT"
+        android:textSize="15sp"/>
+
+
+</LinearLayout>

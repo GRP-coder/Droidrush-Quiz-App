@@ -101,15 +101,15 @@ public class Student_signup extends AppCompatActivity {
                                     // Sign in success, update UI with the signed-in user's information
                                     Log.d(TAG, "createUserWithEmail:success");
                                     Map<String, Object> userdata = new HashMap<>();
-                                    userdata.put("Reg.No", "89");
-                                    userdata.put("Email", "klhh");
-                                    userdata.put("Name", "plpk");
+                                    userdata.put("Reg.No", reg_no);
+                                    userdata.put("Email", email);
+                                    userdata.put("Name", name);
                                     userdata.put("Key", "0");
                                     FirebaseUser user = mAuth.getCurrentUser();
                                     UserID = user.getUid();
-                                    DocumentReference df = db.collection("users").document("45");
+                                    DocumentReference df = db.collection("users").document(UserID);
 
-                                    df.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                    df.set(userdata).addOnSuccessListener(new OnSuccessListener<Void>() {
                                         @Override
                                         public void onSuccess(Void aVoid) {
                                         Log.d(TAG, "Written Succesfully");

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -86,10 +88,10 @@
         android:layout_width="290dp"
         android:layout_height="48dp"
         android:layout_marginTop="32dp"
-        android:background="#E955BFA1"
+        android:background="#AE61A69E"
         android:fontFamily="@font/arbutus"
         android:text="create teacher"
-
+        android:elevation="5dp"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -116,7 +118,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-
+    
 
     <EditText
         android:id="@+id/etPascheck"
@@ -139,7 +141,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
-
+    
 
     <EditText
         android:id="@+id/regno"

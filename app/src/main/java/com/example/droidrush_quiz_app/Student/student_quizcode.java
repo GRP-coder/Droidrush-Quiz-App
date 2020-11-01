@@ -12,22 +12,19 @@ import com.example.droidrush_quiz_app.R;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class student_quizcode extends AppCompatActivity {
-    Button logout;
+    Button  startquiz;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.student_quizcode);
 
+        startquiz = findViewById(R.id.startquizbt);
 
-
-
-        logout.setOnClickListener(new View.OnClickListener() {
+        startquiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FirebaseAuth.getInstance().signOut();
-                startActivity(new Intent(getApplicationContext(), StudentLogIn.class));
-                finish();
+                startActivity(new Intent(getApplicationContext(), student_quiz.class));
             }
         });
     }

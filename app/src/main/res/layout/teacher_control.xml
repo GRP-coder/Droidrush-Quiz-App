@@ -31,6 +31,7 @@
 
 
     <TextView
+        android:id="@+id/viewquiz"
         android:background="#11385E"
         android:text="Edit /Create Quizes"
         android:textColor="#ffffff"
@@ -42,6 +43,7 @@
         android:layout_height="30dp"/>
 
     <TextView
+        android:id="@+id/viewresult"
         android:layout_marginTop="30dp"
         android:layout_marginStart="110dp"
         android:background="#11385E"
@@ -72,7 +74,7 @@
         android:layout_height="wrap_content"
         android:height="30dp"
         android:width="150dp"
-        android:drawableEnd="@drawable/edit"
+
         android:background="#11385E"
         android:layout_marginStart="220dp"
         android:textColor="#fff"
@@ -80,6 +82,18 @@
         android:text=""
 
         android:layout_marginTop="-30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:width="30dp"
+
+        android:background="#123"
+        android:drawableEnd="@drawable/edit"
+        android:layout_marginStart="370dp"
+        android:layout_marginTop="-30dp"/>
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -101,9 +115,19 @@
         android:width="150dp"
         android:background="#11385E"
         android:textColor="#fff"
-        android:drawableEnd="@drawable/edit"
+
         android:layout_marginStart="220dp"
         android:layout_marginTop="-28dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:width="30dp"
+
+        android:background="#123"
+        android:drawableEnd="@drawable/edit"
+        android:layout_marginStart="370dp"
+        android:layout_marginTop="-30dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -122,13 +146,24 @@
     <TextView
         android:id="@+id/admin_email_tv"
         android:layout_width="wrap_content"
-        android:drawableEnd="@drawable/edit"
+
         android:layout_height="30dp"
         android:width="150dp"
         android:background="#11385E"
         android:textColor="#fff"
         android:layout_marginStart="220dp"
         android:layout_marginTop="-28dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:width="30dp"
+
+        android:background="#123"
+        android:drawableEnd="@drawable/edit"
+        android:layout_marginStart="370dp"
+        android:layout_marginTop="-30dp"/>
 
 
     <TextView
@@ -150,11 +185,22 @@
         android:layout_height="30dp"
         android:height="30dp"
         android:width="150dp"
-        android:drawableEnd="@drawable/edit"
+
         android:background="#11385E"
         android:textColor="#fff"
         android:layout_marginStart="220dp"
         android:layout_marginTop="-28dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:width="30dp"
+
+        android:background="#123"
+        android:drawableEnd="@drawable/edit"
+        android:layout_marginStart="370dp"
+        android:layout_marginTop="-30dp"/>
     <Button
         android:layout_width="100dp"
         android:layout_height="40dp"

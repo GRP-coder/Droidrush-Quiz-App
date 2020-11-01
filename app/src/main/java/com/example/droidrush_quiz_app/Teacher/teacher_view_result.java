@@ -15,5 +15,6 @@ public class teacher_view_result extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.teacher_view_result);
+
     }
 }

@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:text="Edit or View Quiz"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="#0A4681"
+
+         />
+    <TextView
+        android:id="@+id/create_new_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:text="Create New Quiz"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="#0A4681"
+        />
+
+
+    <GridView
+       android:id="@+id/quizlist"
+       android:numColumns="1"
+
+        android:layout_marginTop="5dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       >
+
+   </GridView>
+
+
+
+
+
+
+
+
+</LinearLayout>

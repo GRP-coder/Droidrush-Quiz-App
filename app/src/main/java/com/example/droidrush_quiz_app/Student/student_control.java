@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.example.droidrush_quiz_app.Auth.StudentLogIn;
 import com.example.droidrush_quiz_app.R;
@@ -13,6 +14,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class student_control extends AppCompatActivity {
     Button logout;
+    TextView startquiz;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +26,14 @@ public class student_control extends AppCompatActivity {
                 FirebaseAuth.getInstance().signOut();
                 startActivity(new Intent(getApplicationContext(), StudentLogIn.class));
                 finish();
+            }
+        });
+
+        startquiz = findViewById(R.id.startquiztv);
+        startquiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), student_quizcode.class));
             }
         });
 

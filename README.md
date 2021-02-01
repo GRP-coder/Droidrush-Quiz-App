@@ -1,4 +1,4 @@
-# Droidrush-Quiz-App
+# TestX (Droidrush-Quiz-App)
 
 # Gforce-Droidrush-Quiz-app
 Quiz app building for Droidrush (Avishkar 2020)
